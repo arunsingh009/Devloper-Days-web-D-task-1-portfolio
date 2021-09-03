@@ -1,0 +1,74 @@
+.Skills {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.skillbox1 {
+  color: #fff;
+  border-bottom: 5px solid #fff;
+}
+.skillbox2 {
+  /* border: 2px solid white; */
+  height: 80vh;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.Skill {
+  width: 25%;
+}
+.Skill img {
+  height: 200px;
+  width: 200px;
+}
+
+/* project ki Css  */
+.projectbox {
+  width: 80%;
+  height: 80vh;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Project {
+  width: 80%;
+  height: 90%;
+  /* border: 2px solid white; */
+}
+.prbox {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  box-shadow: 4px 4px 20px 10px #fff;
+}
+.prbox1 {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+}
+.prbox1:hover {
+  background-color: #000;
+  opacity: 0.3;
+}
+.prbox1 img {
+  height: 100%;
+  width: 100%;
+}
+.prbox2 {
+  height: 100%;
+  width: 50%;
+  border: 2px solid white;
+  padding: 4%;
+  color: #fff;
+}
+.prbox2:hover {
+  background-color: #000;
+  opacity: 0.5;
+}

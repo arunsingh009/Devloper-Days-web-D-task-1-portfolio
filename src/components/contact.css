@@ -1,0 +1,74 @@
+.Contactbox {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.cobx {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cb1,
+.cb2 {
+  /* border: 2px solid white; */
+  width: 45%;
+  height: 70vh;
+  color: #fff;
+}
+.cb1 {
+  padding: 8% 0% 0% 6%;
+}
+.cb1 h1 {
+  color: red;
+  font-size: 3.2em;
+  font-weight: bold;
+}
+.cob {
+  width: 50%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cob .bi {
+  font-size: 25px;
+  cursor: pointer;
+}
+.bi:hover {
+  transform: scale(1.2);
+}
+.cb2 {
+  background-image: linear-gradient(#ffb344, #ffb319);
+  display: flex;
+  align-items: center;
+}
+.form {
+  width: 60%;
+  height: 60vh;
+  /* border: 2px solid black; */
+  padding: 5%;
+}
+.form label {
+  font-size: 18px;
+}
+.form input {
+  width: 80%;
+}
+.form textarea {
+  width: 80%;
+}
+.submit {
+  background-color: #2a0944;
+  color: #fff;
+  font-size: 18px;
+}
+footer {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
